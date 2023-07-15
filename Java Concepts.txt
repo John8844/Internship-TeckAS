@@ -7,7 +7,87 @@ Classes & Objects
 Methods
 Constructors
 
-OOPs Concepts - like Abstraction,Inheritance,Polymorphism
-
 Getter & Setter Methods
+
+
+OOPs concepts:-
+
+Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts:
+
+1. Object
+2. Class
+3. Inheritance
+4. Polymorphism
+5. Abstraction
+6. Encapsulation
+
+
+Object:-
+
+An Object can be defined as an instance of a class. An object contains an address and takes up some space in memory.
+
+
+Class:-
+
+Collection of objects is called class. It is a logical entity.
+A class can also be defined as a blueprint from which you can create an individual object. Class doesn't consume any space.
+
+
+Inheritance:-
+
+When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
+
+
+Polymorphism:-
+
+If one task is performed in different ways, it is known as polymorphism.
+In Java, we use method overloading and method overriding to achieve polymorphism.
+
+
+Abstraction:-
+
+Hiding internal details and showing functionality is known as abstraction.
+In Java, we use abstract class and interface to achieve abstraction.
+
+
+Encapsulation:-
+
+Binding (or wrapping) code and data together into a single unit are known as encapsulation.
+A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
+
+
+Keywords:-
+
+final: Java final keyword is used to indicate that a variable holds a constant value. It is used with a variable. It is used to restrict the user from updating the value of the variable.
+
+
+Java static method:-
+
+The static keyword in Java is used for memory management mainly.
+
+If you apply static keyword with any method, it is known as static method.
+
+A static method belongs to the class rather than the object of a class.
+A static method can be invoked without the need for creating an instance of a class.
+A static method can access static data member and can change the value of it.
+
+Static Restriction:-
+
+The static method can not use non static data member or call non-static method directly.
+this and super cannot be used in static context.
+
+
+this keyword usage:-
+
+this can be used to refer current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke current class constructor.
+
+
+Usage of Java super Keyword:-
+
+super can be used to refer immediate parent class instance variable.
+super can be used to invoke immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
 
